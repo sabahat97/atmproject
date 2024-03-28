@@ -19,7 +19,8 @@ let askdetail = await inquirer.prompt(
     ]
 );
 if (askdetail.acc === accountNumber){
-    console.log ("account number is correct");
+    console.log ("account number is correct")
+
 
     const accountType = await inquirer.prompt(
         [
@@ -81,4 +82,4 @@ console.log (`your remaining balance is ${amountLeft}`);
 }
 } else {
       console.log ("insufficient balance");
-}
+} 

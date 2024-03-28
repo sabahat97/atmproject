@@ -7,7 +7,7 @@ console.log(`your account number is ${accountNumber}`);
 let askdetail = await inquirer.prompt([
     { name: "acc",
         type: "number",
-        message: "enter your accoun number first..."
+        message: "enter your account number first..."
     }
 ]);
 if (askdetail.acc === accountNumber) {
